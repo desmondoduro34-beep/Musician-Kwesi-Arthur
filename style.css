@@ -21,12 +21,10 @@ body{
 nav a{
 color: rgb(7, 42, 86);
 font-size: 15px;
-display: flex;
-flex-wrap: wrap;
-gap: 10px;
-
-
 }
+@media(max-width:768px){.nav {
+    flex-direction: column;
+}}
 
 h2{
     color: yellow;
@@ -110,6 +108,7 @@ h5{
 a{
     text-decoration: none;
 }
+
 
 
 
