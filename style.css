@@ -21,7 +21,10 @@ body{
 nav a{
 color: rgb(7, 42, 86);
 font-size: 15px;
-margin-bottom:10px;
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+
 
 }
 
@@ -107,6 +110,7 @@ h5{
 a{
     text-decoration: none;
 }
+
 
 
 
